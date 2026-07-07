@@ -2,22 +2,21 @@
 
 Fennel is a Lisp-like programming language that compiles to Lua.
 
-It combines:
-- the simplicity and portability of Lua
-- with the expressive power of Lisp syntax
+It combines the simplicity and portability of Lua with the expressive power of Lisp syntax. Since Fennel compiles to Lua, Fennel programs can run anywhere Lua is available.
 
-Fennel code runs anywhere Lua runs.
-<br><br><br>
-**First example:**
->FENNEL
+## First example
 
-`(print "Hello from Fennel!")`
+**Fennel**
 
+```
+(print "Hello from Fennel!")
+```
 corresponds to:
->LUA
 
-`print("Hello from Lua!")`
-<br><br><br>
+**Lua**
+```
+print("Hello from Lua!")
+```
 **Why Fennel?**
 
 Fennel exists to make Lua more expressive without losing its simplicity.
@@ -28,11 +27,11 @@ prefix notation (Lisp style)<br>
 powerful macros<br>
 better code composition<br>
 structural clarity for complex programs
-<br><br><br>
+
 **Interactive use (REPL)**
 
 Fennel can be used interactively:
-<br><br><br>
+
 **Key idea**
 Fennel is not a replacement for Lua.<br>
 It is a *different way to write Lua.*
